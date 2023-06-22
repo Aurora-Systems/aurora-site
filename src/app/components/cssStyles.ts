@@ -1,0 +1,1 @@
+export const navLink = "position-fixed  rounded-pill p-3 mt-2 genShadow" 
