@@ -4,7 +4,7 @@ import NavBar from './components/navBar'
 
 export const metadata = {
   title: 'Aurora',
-  description: 'Aurora systems is an SaaS company which fouces on building management systems...',
+  description: 'Aurora systems is an SAAS company which focuses on building management systems...',
 }
 
 export default function RootLayout({
@@ -18,6 +18,7 @@ export default function RootLayout({
         <NavBar/>
        
         {children}
+        <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
         </body>
     </html>
   )

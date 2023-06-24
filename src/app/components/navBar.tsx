@@ -4,7 +4,7 @@ export default function NavBar(){
   return(
     <div className="container position-sticky d-flex text-center justify-content-center">
         <nav className={navLink}>
-          <a className="specialText">AURORA </a>
+          <a className="specialText"><img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv"/></a>
           <a>Home</a>
           <a>Products</a>
           <a>Roadmap</a>
