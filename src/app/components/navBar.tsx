@@ -2,7 +2,7 @@ import { navLink } from "./cssStyles";
 
 export default function NavBar(){
   return(
-    <div className="container position-sticky d-flex text-center justify-content-center">
+    <div className="container position-sticky d-flex text-center justify-content-center z-0 ">
         <nav className={navLink}>
           <a className="specialText"><img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv"/></a>
           <a>Home</a>

@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import './globals.css'
+import './globals.css';
+import 'animate.css';
 import NavBar from './components/navBar'
 
 export const metadata = {
@@ -14,8 +15,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body >
-        <NavBar/>
+      <body  className='container-fluid'>
+        <NavBar />
        
         {children}
         <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
