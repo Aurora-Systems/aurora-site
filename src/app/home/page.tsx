@@ -38,6 +38,22 @@ export default function Home(){
                    
                     </Fade>        
             </div>
+            <div className="viewPage d-flex flex-wrap justify-content-center align-items-center cb2">
+            <Fade direction="down">
+                <div className="row text-center">
+                <div className="col-sm">
+                        <img src="https://ngratesc.sirv.com/Aurora/home_page_three.png" className="Sirv rocketImg animate__animated animate__swing animate__infinite	animate__slow "/>
+                    </div>
+                     <div className="col-sm">
+                        <h1>WHAT DO I REALLY NEED?</h1>
+                        <p>What you need is a website to boost up your sales or advertising material. Perhaps you already have this but your workspace is a mess. Whatever the case, from websites to marketing to organizing your work, we have every tool in the box. Contact us today and we will prep up the best solution for your business.</p>
+                        <button className="btn btn-light rounded-pill shadow-lg">Get Started</button>
+                    </div>
+                  
+                </div>
+                   
+                    </Fade>        
+            </div>
             
             
            
