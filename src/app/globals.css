@@ -14,10 +14,25 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif !important;
-  background-image: -webkit-radial-gradient(#00aeff, #bef0ffa4);
-  background-attachment: fixed;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  /* background-attachment: fixed; */
+  background-size: 400% 400%;
   scrollbar-width: none;
   color: #fff;
+  animation: gradient 5s ease infinite;
+  
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 .viewPage{
@@ -26,21 +41,17 @@ body {
 }
  
 
-.specialText{
-  background: -webkit-linear-gradient(white, #0a4561);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 
 .genShadow{
   box-shadow:  0rem 0rem 20px rgba(0, 0, 0, 0.15) !important;
 }
 
 nav{
-  z-index: 0 !important;
+  color: white;
   width: fit-content;
-  background-color: rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  background-color: rgba(255, 255, 255, 0.2); 
+   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
   
 }
@@ -56,23 +67,26 @@ nav a:hover{
   cursor: pointer;
 }
 
-.colorBg{
 
+
+
+
+
+h1,h2,h3,p{
+  color:white;
 }
 
-.rocketImg{
-  animation: Bounce;
-  transition: 0.5s ease;
-  transform: rotate(20deg);
+.navMobile{
+  margin:5px;
+  padding: 10px;
+  border-radius: 7px;
 }
 
-@keyframes Bounce {
-  0%{
-    
+.dropdown-toggle::after {
+  display: none !important; 
+}
 
-  };
-  100%{
-    margin-bottom: 30px;
-  }
-  
+.btnMenu>button{
+  background: none;
+  border:none;
 }

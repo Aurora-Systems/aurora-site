@@ -4,7 +4,7 @@ import {chevronDown} from "ionicons/icons"
 import { IonIcon } from "@ionic/react"
 export default function Home(){
     return(
-        <div className="container z-3  ">
+        <div className="container ">
             <div className=" viewPage d-flex align-items-center flex-column  text-center flex items-center justify-content-center cb">
             
            
@@ -28,7 +28,7 @@ export default function Home(){
             <Fade direction="down">
                 <div className="row text-center">
                      <div className="col-sm">
-                        <h1>WHY US?</h1>
+                        <h1 className="text-white">WHY US?</h1>
                         <p>Because we understand what you need. Running a business is tough. Having to arrange appointments, work schedules, payrolls and marketing material; It's all a lot. That's where we come in. We have affordable management systems to cater for your every need. Automate your workflow and check your balances it's as simple as that.</p>
                     </div>
                     <div className="col-sm">
@@ -45,7 +45,7 @@ export default function Home(){
                         <img src="https://ngratesc.sirv.com/Aurora/home_page_three.png" className="Sirv rocketImg animate__animated animate__swing animate__infinite	animate__slow "/>
                     </div>
                      <div className="col-sm">
-                        <h1>WHAT DO I REALLY NEED?</h1>
+                        <h1 className="text-white">WHAT DO I REALLY NEED?</h1>
                         <p>What you need is a website to boost up your sales or advertising material. Perhaps you already have this but your workspace is a mess. Whatever the case, from websites to marketing to organizing your work, we have every tool in the box. Contact us today and we will prep up the best solution for your business.</p>
                         <button className="btn btn-light rounded-pill shadow-lg">Get Started</button>
                     </div>
