@@ -10,7 +10,7 @@ export default function NavBar() {
   })
   const isTabletOrMobile = useMediaQuery({ query: '(max-width: 1224px)' })
   return (
-    <div className="container d-flex text-center justify-content-center position-fixed " style={{position:"relative", zIndex:"0 !important"}}>
+    <div className="container d-flex text-center justify-content-center bg-transparent" style={{position:"relative", zIndex:"0 !important"}}>
       {isDesktopOrLaptop && <nav className={navLink}>
         <a className="specialText"><img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv" /></a>
         <a>Home</a>
