@@ -59,14 +59,18 @@ nav{
 }
 
 nav a{
+  color: #fff;
+  text-decoration: none;
   font: larger;
   font-weight: 400;
   margin: 10px;
 }
 
 nav a:hover{
-  color: #00aeff;
+  transition: ease;
+  color: #016999;
   cursor: pointer;
+  text-shadow: 0 0 10px #2f00ff;
 }
 
 
@@ -91,4 +95,16 @@ h1,h2,h3,p{
 .btnMenu>button{
   background: none;
   border:none;
+}
+
+.btnGen{
+  background-color: #fff;
+  width: 200px;
+  height: 45px;
+}
+
+.btnGen:hover{
+  transition: ease;
+  background-color: #016999;
+  color:"white"
 }
