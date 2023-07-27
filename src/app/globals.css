@@ -13,6 +13,8 @@ html {
 }
 
 body {
+  padding:0px;
+  margin: 0px;
   font-family: 'Poppins', sans-serif !important;
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   /* background-attachment: fixed; */
@@ -58,15 +60,15 @@ nav{
   
 }
 
-nav a{
+.footer a,nav a{
   color: #fff;
   text-decoration: none;
-  font: larger;
+
   font-weight: 400;
-  margin: 10px;
+  margin:10px 10px 0px 0px;
 }
 
-nav a:hover{
+.footer a:hover,nav a:hover{
   transition: ease;
   color: #016999;
   cursor: pointer;
@@ -74,7 +76,13 @@ nav a:hover{
 }
 
 
-
+.footer{
+  margin: 0px;
+  color: white;
+  background-color: rgba(255, 255, 255, 0.2); 
+   backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+  -webkit-backdrop-filter: blur(20px) saturate(160%) contrast(45%) brightness(140%);
+}
 
 
 
@@ -107,4 +115,9 @@ h1,h2,h3,p{
   transition: ease;
   background-color: #016999;
   color:"white"
+}
+
+.right-border{
+  border-right: 10px solid white;
+  border-radius: 7px;
 }

@@ -27,7 +27,7 @@ export default function Home(){
             </div>
            
             <div className="viewPage d-flex flex-wrap justify-content-center align-items-center cb2">
-            <Fade direction="up">
+            <Fade >
                 <div className="row text-center">
                     <div className="col-sm order-md-2">
                         <img src="https://ngratesc.sirv.com/Aurora/mp_three.png?scale.option=fill&scale.width=246&scale.height=246" className="Sirv rocketImg animate__animated animate__bounce animate__infinite	animate__slow mt-3"/>
@@ -43,7 +43,7 @@ export default function Home(){
                     </Fade>        
             </div>
             <div className="viewPage d-flex flex-wrap justify-content-center align-items-center cb2">
-            <Fade direction="down">
+            <Fade >
                 <div className="row text-center">
                 <div className="col-sm mb-5">
                         <img src="https://ngratesc.sirv.com/Aurora/home_page_three.png" className="Sirv rocketImg animate__animated animate__swing animate__infinite	animate__slow "/>
