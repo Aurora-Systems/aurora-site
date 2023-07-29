@@ -23,22 +23,21 @@ export default function NavBar() {
       </nav>}
       {
         isTabletOrMobile &&
-        <Dropdown className="mt-3">
-          <DropdownButton drop="down-centered" variant="transparent" className="btnMenu"  title={ <img src="https://ngratesc.sirv.com/Aurora/menu.png" alt="Menu"/>}>
-         
-          <Dropdown.Item>          <Link href="/" className="specialText"><img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv" /></Link>
+        <Dropdown className="mt-3  ">
+          <DropdownButton drop="down-centered" variant="transparent" className="btnMenu "  title={ <img src="https://ngratesc.sirv.com/Aurora/menu.png" alt="Menu"/>}>
+          <Dropdown.Item className="text-center" href="">        <img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv" />
             </Dropdown.Item>
-            <Dropdown.Item>          <Link href=""><img src="https://ngratesc.sirv.com/Aurora/home.svg" width="20" alt="" /> Home</Link>
+            <Dropdown.Item className="text-center" href="/">           Home
             </Dropdown.Item>
-            <Dropdown.Item>          <Link href=""><img src="https://ngratesc.sirv.com/Aurora/products.svg" width="20" alt="" /> Products</Link>
+            <Dropdown.Item className="text-center" href="/Services">           Products
             </Dropdown.Item>
-            <Dropdown.Item>          <Link href=""><img src="https://ngratesc.sirv.com/Aurora/roadmap.svg" width="20" alt="" /> Roadmap</Link>
+            <Dropdown.Item className="text-center" href="/Roadmap">          Roadmap
             </Dropdown.Item>
-            <Dropdown.Item>          <Link href=""><img src="https://ngratesc.sirv.com/Aurora/job.svg" width="20" alt="" /> Careers</Link>
+            <Dropdown.Item className="text-center" href="/Careers">          Careers
             </Dropdown.Item>
-            <Dropdown.Item>          <Link href=""><img src="https://ngratesc.sirv.com/Aurora/support.svg" width="20" alt="" /> Support</Link>
+            <Dropdown.Item className="text-center" href="/Support">          Support
             </Dropdown.Item>
-            <Dropdown.Item>          <button className="btn btn-primary rounded-pill">Waitlist</button>
+            <Dropdown.Item className="text-center">          <button className="btn btn-primary rounded-pill">Waitlist</button>
             </Dropdown.Item>
           </DropdownButton>
         </Dropdown>
