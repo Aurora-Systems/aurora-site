@@ -18,8 +18,8 @@ export default function Home(){
             </div>
             <div className="">
                 <Fade>
-                <h1 className="fs-1 fw-bolder text-white">READY TO CONNECT?</h1>
-                <b className="animate__pulse animate__infinite"><IonIcon icon={chevronDown} size="large" color="light" /></b>
+                <h1 className="fs-1 mb-5 fw-bolder text-white">READY TO CONNECT?</h1>
+                <b className=""><IonIcon className="animate__animated animate__slower animate__bounce animate__infinite" icon={chevronDown} size="large" color="light" /></b>
                 </Fade>
                 
               

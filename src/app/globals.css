@@ -121,3 +121,7 @@ h1,h2,h3,p{
   border-right: 10px solid white;
   border-radius: 7px;
 }
+
+.page{
+  height: 99vh;
+}
