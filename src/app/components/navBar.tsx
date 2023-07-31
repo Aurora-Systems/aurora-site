@@ -23,7 +23,8 @@ export default function NavBar() {
       </nav>}
       {
         isTabletOrMobile &&
-        <Dropdown className="mt-3  ">
+        <div className="mobile">
+<Dropdown className="mt-3 ">
           <DropdownButton drop="down-centered" variant="transparent" className="btnMenu "  title={ <img src="https://ngratesc.sirv.com/Aurora/menu.png" alt="Menu"/>}>
           <Dropdown.Item className="text-center" href="">        <img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv" />
             </Dropdown.Item>
@@ -41,10 +42,8 @@ export default function NavBar() {
             </Dropdown.Item>
           </DropdownButton>
         </Dropdown>
-
-
-
-
+        </div>
+        
       }
     </div>
   )

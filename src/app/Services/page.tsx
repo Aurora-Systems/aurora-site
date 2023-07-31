@@ -75,34 +75,7 @@ export default function Services() {
                     </div>
                 </div>
             </div>
-            <Modal className="text-dark" show={hide.showWeb} size="xl">
-                   
-                <Modal.Header>
-                    <h4>Web Services</h4>
-                    <button onClick={()=>setHide({...hide,showWeb:false})} className="btn btn-outline-danger rounded-pill d-flex align-items-center"><IonIcon icon={close}/></button>
-                </Modal.Header>
-                <Modal.Body>
-                   <div className="p-3">
-                    
-                        <p className="text-dark">
-                        In today’s digital age, having a website and proper advertising is essential for any company. A website serves as a platform for customers to learn about the company, its products or services, and how to get in touch. It also helps to establish credibility and professionalism, making it easier for potential customers to trust the company.
-</p><p>Proper advertising, on the other hand, helps to attract new customers and retain existing ones. By targeting the right audience with the right message, a company can effectively promote its products or services and increase its sales.
-
-                        </p>
-                    
-                   
-                   <a href="/Support"><button  className="btn btn-primary rounded-pill shadow-lg">Get In Touch</button></a>
-                   </div>
-                </Modal.Body>
-            </Modal>
-              <Modal className="text-dark" show={hide.showWeb} size="lg">
-                
-            </Modal>
-
-            <Modal className="text-dark" show={hide.showWeb} size="lg">
-                
-            </Modal>
-
+           
 
 
         </div>

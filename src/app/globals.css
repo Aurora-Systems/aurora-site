@@ -91,6 +91,7 @@ h1,h2,h3,p{
 }
 
 .navMobile{
+
   margin:5px;
   padding: 10px;
   border-radius: 7px;
@@ -113,8 +114,7 @@ h1,h2,h3,p{
 
 .btnGen:hover{
   transition: ease;
-  background-color: #016999;
-  color:"white"
+  color:"#00aeff"
 }
 
 .right-border{
@@ -128,4 +128,13 @@ h1,h2,h3,p{
 
 ul {
   list-style-type: none;
+}
+
+button:hover{
+  color: #00aeff;
+}
+
+.mobile{
+  z-index: 1 !important;
+  position: fixed;
 }
