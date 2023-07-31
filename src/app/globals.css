@@ -125,3 +125,7 @@ h1,h2,h3,p{
 .page{
   height: 99vh;
 }
+
+ul {
+  list-style-type: none;
+}
