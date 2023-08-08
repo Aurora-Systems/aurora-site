@@ -16,6 +16,7 @@ body {
   padding:0px;
   margin: 0px;
   font-family: 'Poppins', sans-serif !important;
+  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
   /* background-attachment: fixed; */
   background-size: 400% 400%;
@@ -107,18 +108,23 @@ h1,h2,h3,p{
 }
 
 .btnGen{
-  background-color: #fff;
   width: 200px;
   height: 45px;
 }
 
 .btnGen:hover{
   transition: ease;
-  color:"#00aeff"
+  color: #016999;
+  text-shadow:  0 0 10px #2f00ff;
 }
 
 .right-border{
   border-right: 10px solid white;
+  border-radius: 7px;
+}
+
+.left-border{
+  border-left: 10px solid white;
   border-radius: 7px;
 }
 

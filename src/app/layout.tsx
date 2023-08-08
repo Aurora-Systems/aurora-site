@@ -17,6 +17,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+
+      <script async src="https://tally.so/widgets/embed.js"></script>
+      </head>
       <body suppressHydrationWarning={true}>
         <NavBar />
        

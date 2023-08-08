@@ -48,7 +48,7 @@ export default function Support(){
             <div>
                 <div className="mb-3">
                     <h1 className="text-white">Support</h1>
-                    <p>Send a message to us and we will answer ASAP!</p>
+                    <p>Send a message and we will answer ASAP!</p>
                 </div>
                
             <form ref={form} onSubmit={(e:any)=>handleSubmit(e)}>
