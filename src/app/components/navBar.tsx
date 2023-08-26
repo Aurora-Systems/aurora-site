@@ -19,7 +19,7 @@ export default function NavBar() {
         <Link href="/Roadmap">Roadmap</Link>
         <Link href="/Careers">Careers</Link>
         <Link href="/Support">Support</Link>
-        <button className="btn btn-primary rounded-pill">Ready To Build?</button>
+        <Link href="mailto:zkomichi@aurorasystems.co.zw?subject=Ready to build! &body=  Good day, I want to ...."><button className="btn btn-primary rounded-pill">Ready To Build?</button></Link>
       </nav>}
       {
         isTabletOrMobile &&
