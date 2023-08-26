@@ -35,9 +35,11 @@ export default function Careers(){
 
     return(
         <div className={vp}>
-            <div>
+            <div className="mb-3">
                 <h1>GROW</h1>
+
             <img src="" className="img-fluid" alt=""/>
+            <p>We are big on passion, express yourself, make decisions that matter!</p>
             </div>
              <form onSubmit={(e:any)=>handleSubmit(e)}>
              <div>
@@ -81,7 +83,7 @@ export default function Careers(){
                             <textarea placeholder="Tell us about yourself" name="message" className="form-control"></textarea>
                         </div> 
                 </div>
-                <button type="submit" className={btnGen}>Lets Go!</button>
+                <button type="submit" className={btnGen}>{buttonState}</button>
              </form>
         </div>
     )
