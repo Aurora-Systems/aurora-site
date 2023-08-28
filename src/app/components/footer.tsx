@@ -25,18 +25,17 @@ export default function Footer(){
                 <div className="col-sm">
                     <h5>Social</h5>
                     <div className="d-flex flex-column">
-                    <Link href="">Linkedin</Link>
-                    <Link href="">Twitter</Link>
-                    <Link href="">Facebook</Link>
-                    <Link href="">Instagram</Link>
+                    <Link href="https://www.linkedin.com/company/aurora-management-systems/" target="_blank">Linkedin</Link>
+                    <Link href="https://twitter.com/AuroraSystemsZW" target="_blank">Twitter</Link>
+                    <Link href="https://www.facebook.com/AuroraSystemsAfrica" target="_blank">Facebook</Link>
+                    
                     </div>
                     
                 </div>
                 <div className="col-sm">
                     <h5>Legal</h5>
                     <div className="d-flex flex-column">
-                    <Link href="">Terms And Conditions</Link>
-                    <Link href="">Data protection</Link>
+                    <Link href="./Legal" >Data protection</Link>
                     <Link href="">© {new Date().getFullYear()} Aurorasystems </Link>
                     </div>
                 </div>

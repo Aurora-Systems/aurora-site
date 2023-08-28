@@ -44,7 +44,7 @@ export default function Roadmap() {
     
         <div className={vp}>
             <h1>Theres More...</h1>
-            <button className={btnGen}>Subscribe</button>
+            <button data-tally-open="wa5aAy" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"  className={btnGen}>Subscribe</button>
         </div>
      
     </div>

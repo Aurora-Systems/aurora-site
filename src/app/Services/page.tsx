@@ -36,7 +36,7 @@ export default function Services() {
                         <p>
                             With over 1.13 Billion websites in the world its real tough to make yourself stand out. Well we cracked the code. From designing your website, email campaigns, ads and making sure your image is unique we have got it in the bag. Our team of SEO experts will get you up and running in no time!
                         </p>
-                        <button onClick={()=>setHide({...hide,showWeb:true})} className={btnGen}>Learn More</button>
+                        <button  data-tally-open="meq7qE" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" onClick={()=>setHide({...hide,showWeb:true})} className={btnGen}>Get more details</button>
                     </div>
                 </div>
             </div>
@@ -51,7 +51,7 @@ export default function Services() {
                         <h1>Management Systems</h1>
                         <p><i>As long as it's not refined your data is just trash</i></p>
                         <p>Mangement systems help to make your data make sense without you having to do an aweful amount of work. Manage your client data, stats, financials all from one platform</p>
-                        <button className={btnGen}>Learn More</button>
+                        <button  data-tally-open="meq7qE" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className={btnGen}>Manage my data</button>
                     </div>
                    
                 </div>
@@ -71,7 +71,7 @@ export default function Services() {
                             </ul>
                           
                         
-                        <button className={btnGen}>Learn More</button>
+                        <button  data-tally-open="meq7qE" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className={btnGen}>Secure Everything</button>
                     </div>
                 </div>
             </div>
