@@ -7,7 +7,7 @@ export default function Roadmap() {
         <div className={vp}>
             <div className="row general_block d-flex align-items-center">
                 <div className="col-sm text-center order-md-2">
-                    <h1 className="display-1">Q4</h1>
+                    <h1 className="display-1 text-white">Q4</h1>
                 </div> 
                 <div className="col-sm right-border ">
                     <p className="text-end">2023</p>
@@ -19,7 +19,7 @@ export default function Roadmap() {
         <div className={vp}>
         <div className="row general_block d-flex align-items-center">
         <div className="col-sm text-center ">
-    <h1 className="display-1">Q1</h1>
+    <h1 className="display-1"  text-white>Q1</h1>
 </div> 
 <div className="col-sm left-border order-md-1">
     <p className="text-end">2024</p>
@@ -32,7 +32,7 @@ export default function Roadmap() {
         <div className={vp}>
             <div className="row general_block d-flex align-items-center">
                 <div className="col-sm text-center order-md-2">
-                    <h1 className="display-1">Q4</h1>
+                    <h1 className="display-1 text-white">Q4</h1>
                 </div> 
                 <div className="col-sm right-border ">
                     <p className="text-end">2025</p>
@@ -43,7 +43,7 @@ export default function Roadmap() {
         </div>
     
         <div className={vp}>
-            <h1>Theres More...</h1>
+            <h1 className=" text-white">Theres More...</h1>
             <button data-tally-open="wa5aAy" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave"  className={btnGen}>Subscribe</button>
         </div>
      
