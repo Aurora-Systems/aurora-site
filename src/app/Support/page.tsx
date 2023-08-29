@@ -47,7 +47,7 @@ export default function Support(){
             {/* form data */}
             <div>
                 <div className="mb-3">
-                    <h1 className="text-white">Support</h1>
+                    <h1 className="text-white  text-white">Support</h1>
                     <p>Send a message and we will answer ASAP!</p>
                 </div>
                

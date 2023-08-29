@@ -36,12 +36,12 @@ export default function Careers(){
     return(
         <div className={vp}>
             <div className="mb-3">
-                <h1>GROW</h1>
+                <h1 className=" text-white">GROW</h1>
 
             <img src="" className="img-fluid" alt=""/>
             <p>We are big on passion, express yourself, make decisions that matter!</p>
             </div>
-             <form onSubmit={(e:any)=>handleSubmit(e)}>
+             <form onSubmit={(e:any)=>handleSubmit(e)} ref={form}>
              <div>
                     <Alert show={resMessage.show} variant={resMessage.variant}>
                         {resMessage.msg}
