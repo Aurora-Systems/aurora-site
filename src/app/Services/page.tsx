@@ -49,7 +49,7 @@ export default function Services() {
                     </div>
                     <div className="col-sm  text-white">
                         <h1>Management Systems</h1>
-                        <p><i>As long as it's not refined your data is just trash</i></p>
+                        <p><i>As long as it&apos;s not refined your data is just trash</i></p>
                         <p>Mangement systems help to make your data make sense without you having to do an aweful amount of work. Manage your client data, stats, financials all from one platform</p>
                         <button  data-tally-open="meq7qE" data-tally-layout="modal" data-tally-emoji-text="👋" data-tally-emoji-animation="wave" className={btnGen}>Manage my data</button>
                     </div>

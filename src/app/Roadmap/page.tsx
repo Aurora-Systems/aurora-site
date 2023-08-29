@@ -24,7 +24,7 @@ export default function Roadmap() {
 <div className="col-sm left-border order-md-1">
     <p className="text-end">2024</p>
     <p className="display-1">HMS</p>
-    <p>Fully automated hospital management system to handle patient appointments, diagnosis and private files. Create work schedules for doctors and nurses. Monitor activity and review patients' past records. Statistics are generated and sent automatically. Just a tip of the iceberg, there's more!</p>
+    <p>Fully automated hospital management system to handle patient appointments, diagnosis and private files. Create work schedules for doctors and nurses. Monitor activity and review patients past records. Statistics are generated and sent automatically. Just a tip of the iceberg, there&apos;s more!</p>
 </div>
 
 </div>

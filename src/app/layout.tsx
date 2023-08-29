@@ -5,10 +5,10 @@ import 'animate.css';
 import NavBar from './components/navBar'
 import Footer from './components/footer';
 
-export const metadata = {
-  title: 'Aurora',
-  description: 'Aurora systems is an SAAS company which focuses on building management systems...',
-}
+// export const metadata = {
+//   title: 'Aurora',
+//   description: 'Aurora systems is an SAAS company which focuses on building management systems...',
+// }
 
 export default function RootLayout({
   children,
@@ -26,7 +26,7 @@ export default function RootLayout({
        
         {children}
         <Footer/>
-        <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
+        <script async src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
         </body>
     </html>
   )

@@ -34,7 +34,7 @@ export default function Home(){
                     </div>
                      <div className="col-sm mb-3">
                         <h1 className="text-white">WHY US?</h1>
-                        <p >Because we understand what you need. Running a business is tough. Having to arrange appointments, work schedules, payrolls and marketing material; It's all a lot. That's where we come in. We have affordable management systems to cater for your every need. Automate your workflow and check your balances it's as simple as that.</p>
+                        <p >Because we understand what you need. Running a business is tough. Having to arrange appointments, work schedules, payrolls and marketing material; It&apos;s all a lot. That&apos;s where we come in. We have affordable management systems to cater for your every need. Automate your workflow and check your balances it&apos;s as simple as that.</p>
                         <Link href="https://calendly.com/aurorasystems/30min" target="_blank"><button className={btnGen}>Get A Free Consult</button></Link>
                     </div>
                     
