@@ -39,7 +39,7 @@ body {
 }
 
 .viewPage{
-  height: 100vh;
+  min-height: 100vh;
   position: relative;
 }
  
@@ -129,7 +129,7 @@ h1,h2,h3,p{
 }
 
 .page{
-  height: 99vh;
+  min-height: 99vh;
 }
 
 ul {

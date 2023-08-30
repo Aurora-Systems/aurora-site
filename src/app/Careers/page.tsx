@@ -35,7 +35,8 @@ export default function Careers(){
 
     return(
         <div className={vp}>
-            <div className="mb-3">
+            <div className="container mt-5 ">
+            <div className="mb-3 mt-3">
                 <h1 className=" text-white">GROW</h1>
 
             <img src="" className="img-fluid" alt=""/>
@@ -83,8 +84,13 @@ export default function Careers(){
                             <textarea placeholder="Tell us about yourself" name="message" className="form-control"></textarea>
                         </div> 
                 </div>
+                <div className="mb-3">
                 <button type="submit" className={btnGen}>{buttonState}</button>
+
+                </div>
              </form>
+            </div>
+           
         </div>
     )
 }

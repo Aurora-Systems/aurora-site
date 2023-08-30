@@ -26,11 +26,11 @@ export default function Services() {
                 </div>
             </div>
             <div className={vp}>
-                <div className="row d-flex-x align-items-center">
+                <div className="row d-flex-x align-items-center mb-3">
                     <div className="col-sm mb-3">
                         <img src="https://ngratesc.sirv.com/Aurora/website-interface-browser-computer-web-purple-3d-scene-irendering-premium-photo_85504-46-removebg-preview.png" className="img-fluid" alt="" />
                     </div>
-                    <div className="col-sm text-white">
+                    <div className="col-sm text-white  mb-3">
                         <h1>WEB Services</h1>
                         <p><i>Your unique digital footprint!</i></p>
                         <p>
@@ -41,13 +41,13 @@ export default function Services() {
                 </div>
             </div>
             <div className={vp}>
-                <div className="row d-flex-x align-items-center">
+                <div className="row d-flex-x align-items-center  mb-3">
                
 
                     <div className="col-sm mb-3 order-md-1">
                         <img src="https://ngratesc.sirv.com/Aurora/home_page.webp" className="img-fluid" alt="" />
                     </div>
-                    <div className="col-sm  text-white">
+                    <div className="col-sm  text-white  mb-3">
                         <h1>Management Systems</h1>
                         <p><i>As long as it&apos;s not refined your data is just trash</i></p>
                         <p>Mangement systems help to make your data make sense without you having to do an aweful amount of work. Manage your client data, stats, financials all from one platform</p>
@@ -58,10 +58,10 @@ export default function Services() {
             </div>
             <div className={vp}>
                 <div className="row d-flex-x align-items-center">
-                    <div className="col-sm mb-3">
+                    <div className="col-sm mb-3 ">
                         <img src="https://ngratesc.sirv.com/Aurora/monitor_two.png" className="img-fluid" alt="" />
                     </div>
-                    <div className="col-sm text-white">
+                    <div className="col-sm text-white  mb-3">
                         <h1>Information Technology Security</h1>
                         <p><i>Over 560,000 pieces of malware are made each day</i></p>
                             <ul className="text-decoration-none">

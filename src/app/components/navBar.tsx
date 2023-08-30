@@ -38,7 +38,7 @@ export default function NavBar() {
             </Dropdown.Item>
             <Dropdown.Item className="text-center" href="/Support">          Support
             </Dropdown.Item>
-            <Dropdown.Item className="text-center">          <button className="btn btn-primary rounded-pill">Waitlist</button>
+            <Dropdown.Item className="text-center"   href="mailto:zkomichi@aurorasystems.co.zw?subject=Ready to build! &body=  Good day, I want to ...."><button className="btn btn-primary rounded-pill">Ready To Build?</button>
             </Dropdown.Item>
           </DropdownButton>
         </Dropdown>
