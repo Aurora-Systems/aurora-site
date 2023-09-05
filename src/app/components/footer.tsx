@@ -5,7 +5,7 @@ export default function Footer(){
         <div className="footer container-fluid text-center p-3">
             <div className="row">
             <div className="col-sm">
-                    <h5>Details</h5>
+                    <h5 className="mb-2">Details</h5>
                     <div className="d-flex flex-column ">
                     <p>support@aurorasystems.co.zw</p>
                     <p>258 Smuts Rd Waterfalls</p>
@@ -13,7 +13,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className="col-sm">
-                    <h5>Links</h5>
+                    <h5 className="mb-2">Links</h5>
                     <div className="d-flex flex-column ">
                     <Link href="/">Home</Link>
                     <Link href="/Services">Services</Link>
@@ -23,7 +23,7 @@ export default function Footer(){
                     </div>
                 </div>
                 <div className="col-sm">
-                    <h5>Social</h5>
+                    <h5 className="mb-2">Social</h5>
                     <div className="d-flex flex-column">
                     <Link href="https://www.linkedin.com/company/aurora-management-systems/" target="_blank">Linkedin</Link>
                     <Link href="https://twitter.com/AuroraSystemsZW" target="_blank">Twitter</Link>
@@ -33,7 +33,7 @@ export default function Footer(){
                     
                 </div>
                 <div className="col-sm">
-                    <h5>Legal</h5>
+                    <h5 className="mb-2">Legal</h5>
                     <div className="d-flex flex-column">
                     <Link href="./Legal" >Data protection</Link>
                     <Link href="">© {new Date().getFullYear()} Aurorasystems </Link>
