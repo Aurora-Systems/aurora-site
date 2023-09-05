@@ -22,15 +22,7 @@ collected and obtain their consent where required by law.
 Use of Personal Information 
 We use personal information for the following purposes:</p>
 <ol>
-    <li> To provide our products and services to our customers
-</li>
-    <li> To provide our products and services to our customers
-</li>
-    <li> To provide our products and services to our customers
-</li>
-    <li> To provide our products and services to our customers
-To provide our products and services to our customers
-</li>
+
 <li> To provide our products and services to our customers
 </li>
 <li> To communicate with our customers about their orders and account
