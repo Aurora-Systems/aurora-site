@@ -30,14 +30,14 @@ export default function RootLayout({
   gtag('config', 'G-EV70L5Z3LW');
   `}
 </Script>
-      <Script async src="https://tally.so/widgets/embed.js"></Script>
+      <script async src="https://tally.so/widgets/embed.js"></script>
       </head>
       <body suppressHydrationWarning={true}>
         <NavBar />
        
         {children}
         <Footer/>
-        <Script async src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></Script>
+        <script async src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
         </body>
     </html>
   )
