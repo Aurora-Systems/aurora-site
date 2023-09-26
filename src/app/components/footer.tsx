@@ -25,7 +25,7 @@ export default function Footer(){
                 <div className="col-sm">
                     <h5 className="mb-2">Social</h5>
                     <div className="d-flex flex-column">
-                    <Link href="https://www.linkedin.com/company/aurora-management-systems/" target="_blank">Linkedin</Link>
+                    <Link href="https://www.linkedin.com/company/aurorazw/" target="_blank">Linkedin</Link>
                     <Link href="https://twitter.com/AuroraSystemsZW" target="_blank">Twitter</Link>
                     <Link href="https://www.facebook.com/AuroraSystemsAfrica" target="_blank">Facebook</Link>
                     
