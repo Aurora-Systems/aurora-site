@@ -19,7 +19,7 @@ export default function Roadmap() {
         <div className={vp}>
         <div className="row general_block d-flex align-items-center">
         <div className="col-sm text-center ">
-    <h1 className="display-1"  text-white>Q1</h1>
+    <h1 className="display-1  text-white">Q1</h1>
 </div> 
 <div className="col-sm left-border order-md-1">
     <p className="text-end">2024</p>
