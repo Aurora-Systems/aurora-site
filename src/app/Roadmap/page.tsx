@@ -10,7 +10,7 @@ export default function Roadmap() {
                     <h1 className="display-1 text-white">Q4</h1>
                 </div> 
                 <div className="col-sm right-border ">
-                    <p className="text-end">2023</p>
+                    <p className="text-end">In Beta</p>
                     <p className="display-1">ICLAIM</p>
                     <p>Iclaim will make it easier for hospitals large or small to process their claims online. Create your own claim template, auto update of ICD10, ZRVS, TPHAU without paying an extra dime, allow claim capture when offline.</p>
                 </div>
