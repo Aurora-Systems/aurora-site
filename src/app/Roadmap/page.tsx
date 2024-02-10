@@ -36,8 +36,8 @@ export default function Roadmap() {
                 </div> 
                 <div className="col-sm right-border ">
                     <p className="text-end">2025</p>
-                    <p className="display-1">Blue Finance</p>
-                    <p>Make your payments from anywhere in the world, personal book keeping or for an organization,with the option to scale perfectly. Payrolls, invoices, quotations all in one app (desktop and mobile). No need to submit tax forms, all done for you.</p>
+                    <p className="display-1">Bleu Finance</p>
+                    <p>We're redefining banking accessibility, providing financial empowerment through WhatsApp. Our Neobank breaks traditional barriers, offering seamless services to millions worldwide.</p>
                 </div>
             </div>
         </div>
