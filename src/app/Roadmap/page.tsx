@@ -10,9 +10,9 @@ export default function Roadmap() {
                     <h1 className="display-1 text-white">Q4</h1>
                 </div> 
                 <div className="col-sm right-border ">
-                    <p className="text-end">In Beta</p>
-                    <p className="display-1">ICLAIM</p>
-                    <p>Iclaim will make it easier for hospitals large or small to process their claims online. Create your own claim template, auto update of ICD10, ZRVS, TPHAU without paying an extra dime, allow claim capture when offline.</p>
+                    <p className="text-end">Live</p>
+                    <p className="display-1">i-Claim</p>
+                    <p>Revolutionize claim processing with i-claim 🌐 Our API-integrated plugin accelerates and enhances medical aid claims processing through advanced AI, ensuring precision, efficiency, and a seamless integration experience. Join the healthcare revolution! 🌟</p>
                 </div>
             </div>
         </div>

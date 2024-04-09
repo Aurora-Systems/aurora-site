@@ -30,7 +30,7 @@ export default function NavBar() {
             </Dropdown.Item>
             <Dropdown.Item className="text-center" href="/">           Home
             </Dropdown.Item>
-            <Dropdown.Item className="text-center" href="/Services">           Products
+            <Dropdown.Item className="text-center" href="/Services">           Services
             </Dropdown.Item>
             <Dropdown.Item className="text-center" href="/Roadmap">          Roadmap
             </Dropdown.Item>
