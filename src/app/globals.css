@@ -144,3 +144,7 @@ button:hover{
   z-index: 1 !important;
   position: fixed;
 }
+
+.iclaimprimary{
+  background-color: #0038FE;
+}
