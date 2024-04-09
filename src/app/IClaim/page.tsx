@@ -11,13 +11,14 @@ export default function Iclaim(){
                 <br/>
                 <img src="https://ngratesc.sirv.com/i-claim/iclaim.jpg" className="rounded img-fluid " />
             </div>
-            <div className={vp}>
-                <div className="mb-3">
-                    <h1>i-Claim</h1>
-                    <p>Process medical aid claims within seconds</p>
+            <div className={`${vp} bg-white rounded`}>
+
+                <div className="mb-3 ">
+                    <h1 className="iclaimtext">i-Claim</h1>
+                    <p className="iclaimtext">Process medical aid claims within seconds</p>
                </div>
                <div className="row m-2">
-                <div className="col-sm m-2 p-0 bg-white rounded">
+                <div className="col-sm border m-2 p-0 bg-white rounded">
                     <div className="iclaimprimary  p-2 rounded rounded-bottom-0">
                        
                         <p className="fw-bold">PREDICTIVE ANALYSIS<br/>  TRENDS</p>
@@ -28,7 +29,7 @@ export default function Iclaim(){
                         <img src="https://ngratesc.sirv.com/i-claim/Area%20Chart.png" width="30" alt=""/>
                     </div>
                 </div>
-                <div className="col-sm p-0 m-2 bg-white rounded">
+                <div className="col-sm border p-0 m-2 bg-white rounded">
                     <div className="iclaimprimary p-2  p-0 rounded rounded-bottom-0">
                         
                         <p className="fw-bold">SMART VALIDATION <br/>MULTIPLE MODELS</p>
@@ -39,7 +40,7 @@ export default function Iclaim(){
                         <img src="https://ngratesc.sirv.com/i-claim/Order%20Completed.png" width="30" alt=""/>
                     </div>
                 </div>
-                <div className="col-sm m-2 p-0 bg-white rounded">
+                <div className="col-sm border m-2 p-0 bg-white rounded">
                     <div className="iclaimprimary p-2 rounded rounded-bottom-0">
                         <p className="fw-bold">NATURAL LANGUAGE <br/> PROCESSING</p>
                         
