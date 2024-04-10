@@ -25,7 +25,7 @@ export default function Iclaim(){
                         
                     </div>
                     <div className="text-dark p-2 ">
-                        <p className="text-dark">I-Claim employs predictive analysis to anticipate and reveal real-time insights into your claims processing, offering a proactive view of ongoing activities. </p>
+                        <p className="text-dark">i-Claim employs predictive analysis to anticipate and reveal real-time insights into your claims processing, offering a proactive view of ongoing activities. </p>
                         <img src="https://ngratesc.sirv.com/i-claim/Area%20Chart.png" width="30" alt=""/>
                     </div>
                 </div>
