@@ -1,4 +1,5 @@
 "use client"
+import Link from "next/link";
 import { btnGen, vp } from "../components/cssStyles";
 
 export default function Roadmap() {
@@ -13,6 +14,8 @@ export default function Roadmap() {
                     <p className="text-end">Live</p>
                     <p className="display-1">i-Claim</p>
                     <p>Revolutionize claim processing with i-claim 🌐 Our API-integrated plugin accelerates and enhances medical aid claims processing through advanced AI, ensuring precision, efficiency, and a seamless integration experience. Join the healthcare revolution! 🌟</p>
+                    <Link href="https://iclaim.aurorasystems.co.zw" target="_blank"><button className={btnGen}>Visit i-Claim</button></Link>
+
                 </div>
             </div>
         </div>

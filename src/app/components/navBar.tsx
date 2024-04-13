@@ -15,7 +15,7 @@ export default function NavBar() {
       {isDesktopOrLaptop && <nav className={navLink}>
         <Link href="/" className="specialText"><img src="https://ngratesc.sirv.com/Aurora/logo.png" width="30" className="sirv" /></Link>
         <Link href="/">Home</Link>
-        {/* <Link href="/IClaim">i-Claim</Link> */}
+        <Link href="https://iclaim.aurorasystems.co.zw">i-Claim</Link>
         <Link href="/Services">Services</Link>
         <Link href="/Roadmap">Roadmap</Link>
         <Link href="/Careers">Careers</Link>
@@ -31,8 +31,8 @@ export default function NavBar() {
             </Dropdown.Item>
             <Dropdown.Item className="text-center" href="/">           Home
             </Dropdown.Item>
-            {/* <Dropdown.Item className="text-center" href="/IClaim">           i-Claim
-            </Dropdown.Item> */}
+            <Dropdown.Item className="text-center" href="https://iclaim.aurorasystems.co.zw">           i-Claim
+            </Dropdown.Item>
             <Dropdown.Item className="text-center" href="/Services">           Services
             </Dropdown.Item>
             <Dropdown.Item className="text-center" href="/Roadmap">          Roadmap
