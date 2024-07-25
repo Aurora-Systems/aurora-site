@@ -9,7 +9,7 @@ export default function Footer(){
                     <div className="d-flex flex-column ">
                     <p>support@aurorasystems.co.zw</p>
                     <p>258 Smuts Rd Waterfalls</p>
-                    <p>+263 78 898 4320</p>
+                    <p>+263 78 040 0000</p>
                     </div>
                 </div>
                 <div className="col-sm">
